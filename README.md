@@ -6,13 +6,18 @@ A simulated brain activity classification pipeline using synthetic fMRI BOLD sig
 
 # 📂 Project Structure
 bash
-
 📁 fMRI-Brain-Task-Classifier/
+
 ├── app.py                  # Streamlit application script
+
 ├── pca_model.pkl           # Trained PCA dimensionality reduction model
+
 ├── task_classifier.pkl     # Trained SVM classifier
+
 ├── requirements.txt        # Dependencies for Streamlit Cloud
-├── synthetic_fmri.ipynb    # Notebook for data simulation and model training
+
+├── fMRI_task_classifier.ipynb    # Notebook for data simulation and model training
+
 └── README.md               # Project description
 # 🧪 Project Overview
 This project simulates and classifies fMRI brain data by:
