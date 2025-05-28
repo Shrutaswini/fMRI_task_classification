@@ -1,10 +1,10 @@
-🧠 fMRI Brain Task Classification
+## 🧠 fMRI Brain Task Classification
 A simulated brain activity classification pipeline using synthetic fMRI BOLD signals. The project generates realistic voxel activation patterns across different cognitive tasks (e.g., memory, language, motor) and classifies them using PCA + SVM. It is deployed using Streamlit Cloud for interactive use.
 
-🚀 Live Demo
-👉 Launch the Streamlit App
+# 🚀 Live Demo
+👉 Launch the Streamlit App(https://thinktracer.streamlit.app/)
 
-📂 Project Structure
+# 📂 Project Structure
 bash
 
 📁 fMRI-Brain-Task-Classifier/
@@ -14,7 +14,7 @@ bash
 ├── requirements.txt        # Dependencies for Streamlit Cloud
 ├── synthetic_fmri.ipynb    # Notebook for data simulation and model training
 └── README.md               # Project description
-🧪 Project Overview
+# 🧪 Project Overview
 This project simulates and classifies fMRI brain data by:
 
 Simulating voxel-level BOLD activity for tasks like:
@@ -29,11 +29,13 @@ Introducing subject variability and an age factor
 
 Applying PCA for dimensionality reduction
 
+Training a Logistic regression model for baseline testing
+
 Training an SVM model to classify tasks based on reduced features
 
 Deploying the model via Streamlit Cloud
 
-📊 Dataset Details
+# 📊 Dataset Details
 The synthetic dataset simulates multiple aspects of real fMRI data:
 
 🧬 Voxel-wise activity for each task
@@ -46,7 +48,7 @@ The synthetic dataset simulates multiple aspects of real fMRI data:
 
 Each row represents one subject-task combination.
 
-🧠 Model Workflow
+# 🧠 Model Workflow
 Generate data with realistic patterns for each task
 
 Reduce dimensionality using PCA
@@ -55,7 +57,7 @@ Train classifier (SVM) on PCA outputs
 
 Deploy with Streamlit for easy user input + predictions
 
-📈 How to Use
+# 📈 How to Use
 Upload a CSV file with fMRI features (simulated or real)
 
 The app will:
@@ -66,7 +68,7 @@ Predict the cognitive task
 
 View the prediction results live in the app
 
-🛠 Requirements
+# 🛠 Requirements
 nginx
 
 streamlit
@@ -75,7 +77,7 @@ pandas
 scikit-learn
 joblib
 
-Install locally with:
+# Install locally with:
 
 bash
 
@@ -83,7 +85,7 @@ pip install -r requirements.txt
 
 
 
-📚 Technologies Used
+# 📚 Technologies Used
 Python
 
 Scikit-learn
@@ -94,12 +96,12 @@ SVM
 
 Streamlit
 
-🧑‍💻 Author
+# 🧑‍💻 Author
 Shrutaswini [github.com/Shrutaswini]
 
 Feel free to connect on LinkedIn
 
-💡 Future Ideas
+# 💡 Future Ideas
 Add task difficulty modeling
 
 Test with real open-source fMRI datasets (e.g., HCP, OpenNeuro)
