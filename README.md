@@ -1,4 +1,4 @@
-## 🧠 fMRI Brain Task Classification
+## 🧠 ThinkTracer: fMRI Brain Task Classifier
 A simulated brain activity classification pipeline using synthetic fMRI BOLD signals. The project generates realistic voxel activation patterns across different cognitive tasks (e.g., memory, language, motor) and classifies them using PCA + SVM. It is deployed using Streamlit Cloud for interactive use.
 
 # 🚀 Live Demo
